@@ -1,0 +1,74 @@
+.jumbotron-fluid{
+	padding: 0px 0px 0px 0px;
+	background-image: url("../1.jpg"),url("../3.png"),url("../2.jpg");
+    background-color: black;
+    height: 75%;
+	width: 100%;
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-size: 33.3333333333333333333333% 100%;
+	background-position: left,center,right;
+}
+
+.jumbotron-fluid >.container{
+	color:white;
+} 
+
+.jumbotron-fluid >p{
+	color:white;
+}
+
+.hand-written{
+	font: 400 110px/0.8 'Great Vibes', Helvetica, sans-serif;
+  	color: #fff;
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  	text-align: center;
+  	position: relative; 
+  	top: 200px;
+}
+
+.autograph{
+	font: 400 45px/0.8 'Great Vibes', Helvetica, sans-serif;
+  	color: #fff; 
+  	position: relative;
+  	top: 270px;
+  	left: 57%;
+}
+
+.self-intro >div{
+	float: left;
+    width:33.3333333333333%;
+}
+
+@media (min-width: 1600px){
+.self-intro >.Beijing{
+	position: relative;
+	left:7%;
+}
+
+.self-intro >.Toronto{
+	position: relative;
+	right: 7%;
+}
+
+}
+
+@media (min-width: 1250px)and(max-width:1599px){
+.self-intro >.Beijing{
+	position: relative;
+	left:3%;
+}
+
+.self-intro >.Toronto{
+	position: relative;
+	right: 3%;
+}
+}
+
+
+.self-intro{
+	text-align: center;
+}
+
+.self-intro >p{
+	font-size: x-large; 
+}

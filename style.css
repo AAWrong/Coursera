@@ -10,7 +10,6 @@
 			height:40px;
 		    position: relative;
 		    left:65%;
-		    bottom:23px;
 			font-size: 30px;
 			text-align: center;
 			background-color:blue;
@@ -80,3 +79,7 @@
             font-family: Times New Romen;
 		}
 	}
+
+    #navbarSupportedContent{
+    	text-align: center;
+    }
