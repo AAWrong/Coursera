@@ -17,6 +17,15 @@
 	color:white;
 }
 
+
+@media (max-width: 600px){
+	.jumbotron-fluid{
+		display: none;
+	}
+}
+
+
+
 .hand-written{
 	font: 400 110px/0.8 'Great Vibes', Helvetica, sans-serif;
   	color: #fff;
@@ -37,17 +46,26 @@
 .self-intro >div{
 	float: left;
     width:33.3333333333333%;
+    padding-top: 30px;
+   	padding-bottom: 30px;
+
 }
 
 @media (min-width: 1600px){
 .self-intro >.Beijing{
 	position: relative;
-	left:7%;
+	left:15%;
+}
+
+
+.self-intro >.Hamilton{
+	position: relative;
+	left:7.5%;
 }
 
 .self-intro >.Toronto{
 	position: relative;
-	right: 7%;
+	right: 0%;
 }
 
 }
@@ -65,10 +83,212 @@
 }
 
 
-.self-intro{
+.self-intro >h2{
 	text-align: center;
+
 }
 
 .self-intro >p{
-	font-size: x-large; 
+	width:75%;
+	text-align: left;
+	font-size: large;
+	position: relative;
+	left:15%; 
+}
+
+
+.second-paragraph{
+	position:relative;
+	top:40px;
+}
+
+.second-paragraph >p{
+	text-align: left;
+	font-size: large;
+	width: 75%;
+	position:relative;
+	left:15%;
+}
+
+.second-paragraph >h2{
+	text-align: center;
+}
+
+
+@media (min-width: 1600px){
+	.second-paragraph >iframe{
+	position: relative;
+	left:28%;
+}
+}
+
+
+
+#carouselExampleIndicators {
+	width:70%;
+	position: relative;
+	left:15%;
+}
+
+#card1{
+	position:relative;
+	right:110px;
+}
+
+#card2{
+	position:relative;
+	right:40px;
+}
+
+#card3{
+	position:relative;
+	left:40px;
+}
+
+
+#card4{
+	position:relative;
+	left:110px;
+}
+
+@media (max-width: 1199px) and (min-width: 768px){
+	#card1, #card3{
+		left:50px;
+	}
+
+	#card2, #card4{
+		left:90px;
+	}
+
+	#card3, #card4{
+		top:15px;
+	}
+
+}
+
+@media (max-width: 767px){
+	#card1, #card2, #card3, #card4{
+		left:100px;
+	}
+
+	#card2{
+		top:15px;
+	}
+
+	#card3{
+		top:30px;
+	}
+
+	#card4{
+		top:45px;
+	}
+
+}
+
+.thisSite{
+	width:60%;
+	position: relative;
+	left:20%;
+}
+
+#carouselExampleIndicators{
+	position:relative;
+	top:30px;
+}
+
+#title{
+	text-align: center;
+	position: relative;
+	top:60px;
+}
+
+#p1{
+	width: 70%;
+	position: relative;
+	top:75px;
+	left:15%;
+}
+
+#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13,#p14,#p15,#p16,#p17,#p18,#p19,#p20,#p21,#p100,#p200,#p300{
+	width: 70%;
+	position: relative;
+	top:75px;
+	left:15%;
+}
+
+#paragraph >h5{
+	font-weight: 600;
+	position: relative;
+	top:75px;
+	left:15%;	
+}
+
+span{
+	font-weight:600;
+	text-decoration: underline;
+}
+
+@media (min-width:1500px){
+#paragraph >#pic1{
+	position: relative;
+	top:55px;
+	left:30%;
+}
+
+#paragraph >#pic2,#pic3,#pic4{
+	position: relative;
+	top:55px;
+	left:23.5%;
+}
+}
+
+@media (min-width:1200px) and (max-width:1499px){
+#paragraph >#pic1{
+	position: relative;
+	top:55px;
+	left:18%;
+}
+
+#paragraph >#pic2,#pic3,#pic4{
+	position: relative;
+	top:55px;
+	left:13.5%;
+}
+}
+
+@media (min-width:900px) and (max-width:1199px){
+#paragraph >#pic1{
+	position: relative;
+	top:55px;
+	left:10%;
+}
+
+#paragraph >#pic2,#pic3,#pic4{
+	position: relative;
+	top:55px;
+	left:5.5%;
+}
+}
+
+
+@media (max-width:899px){
+#paragraph >#pic1{
+	position: relative;
+	top:55px;
+	left:0%;
+}
+
+#paragraph >#pic2,#pic3,#pic4{
+	position: relative;
+	top:55px;
+	left:0%;
+}
+}
+
+table{
+	width:56%;
+	position:relative;
+	top:55px;
+	left:22%;
+	color: #000080;
 }
