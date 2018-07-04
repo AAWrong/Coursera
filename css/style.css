@@ -292,3 +292,11 @@ table{
 	left:22%;
 	color: #000080;
 }
+
+
+.carousel-item >div{
+	font-size:large;
+	background-color: black;
+	height:150px;
+	opacity:0.5;
+}
