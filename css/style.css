@@ -320,3 +320,8 @@ table{
 	top:75px;
 	left:20%;
 }
+
+#reference{
+	text-align: center;
+	font-size: small;
+}
